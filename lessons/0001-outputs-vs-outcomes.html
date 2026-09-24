@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 1: Outputs vs Outcomes</title>
+<link rel="stylesheet" href="../assets/course.css">
+</head>
+<body data-lesson="0001">
+<header>
+  <div class="kicker">Lesson 1 · Product Thinking · about 10 minutes</div>
+  <h1>Outputs vs Outcomes</h1>
+  <p class="subtitle">The one distinction that stops a team shipping the wrong thing well.</p>
+  <div class="meta"><span>Knowledge: 3 min</span><span>Quiz: 4 min</span><span>Rewrite: 3 min</span></div>
+  <div class="progress-strip"></div>
+</header>
+<main>
+
+<h2>Why this, first</h2>
+<p>Your mission is to shape what your team builds so it stops shipping features that miss the real problem. The Institute of Digital Government's course puts it bluntly: projects "can struggle even when execution is strong, especially when they are solving the wrong problem" (<a href="https://www.idg.gov.sg/guides-and-resources/productthinking1/">Module 1</a>). The fastest habit for catching that is to notice when a plan describes only what will be <em>made</em> and never what will <em>change</em>.</p>
+
+<h2>Knowledge</h2>
+<div class="two-col">
+  <div class="card">
+    <h3>Output</h3>
+    <p>A thing the team makes or delivers. A feature, a form, a report, a migration, a training session, a launch. Countable, and fully under the team's control.</p>
+  </div>
+  <div class="card">
+    <h3>Outcome</h3>
+    <p>A change in what a named group of people do, or no longer have to do, once the output exists. Observable in the world, not in the backlog.</p>
+  </div>
+</div>
+
+<p>The IDG course frames success as "the change achieved, not the features delivered" (<a href="https://www.idg.gov.sg/product-thinking/">overview</a>). Josh Seiden, whose short book <a href="https://www.goodreads.com/book/show/45186993-outcomes-over-output"><em>Outcomes Over Output</em></a> popularised the distinction, defines an outcome as "a change in human behavior that drives business results." Both definitions turn on the same thing: an outcome lives in what people do.</p>
+
+<div class="note">
+  <p><strong>The test.</strong> Could we deliver this perfectly and still have nothing change for the people it is for?</p>
+  <p>If yes, it is an output. If the statement already says what changes for whom, it is an outcome.</p>
+</div>
+
+<p>Two quick supporting checks. <strong>Who is in the sentence?</strong> Outputs rarely name a user. <strong>Whose verb is it?</strong> "Ship", "build", "publish", "train" belong to the team. "Complete", "stop phoning", "reuse", "unblock themselves" belong to users.</p>
+
+<p class="aside">Watch for outcome-sounding outputs. "100% of staff trained" is an output: training was delivered. "Staff make bookings in the new system instead of emailing admin" is the outcome it was meant to cause.</p>
+
+<h2>Skill: classify from memory</h2>
+<p>For each statement, decide whether it describes an output or an outcome. Answer before you scroll. You get feedback immediately.</p>
+
+<div class="quiz">
+<script type="application/json">
+{ "questions": [
+  { "prompt": "Ship the redesigned enrolment form by the end of March.",
+    "options": ["Output", "Outcome"], "answer": 0,
+    "feedback": "A form is a thing delivered. Nothing in the sentence says what parents or staff now do differently." },
+  { "prompt": "Parents complete enrolment in one sitting without phoning the office.",
+    "options": ["Output", "Outcome"], "answer": 1,
+    "feedback": "Named group, changed behaviour, observable. You could count the phone calls." },
+  { "prompt": "Publish twelve tutorial videos this quarter.",
+    "options": ["Output", "Outcome"], "answer": 0,
+    "feedback": "A count of things made. Twelve videos nobody watches still hits the target." },
+  { "prompt": "Students who get stuck on an exercise unblock themselves without waiting for a tutor.",
+    "options": ["Output", "Outcome"], "answer": 1,
+    "feedback": "Students are in the sentence and the verb is theirs. Whatever gets built to cause this is the output." },
+  { "prompt": "Train 100% of staff on the new booking system.",
+    "options": ["Output", "Outcome"], "answer": 0,
+    "feedback": "The classic trap. Training is delivered to people, but the sentence says nothing about whether they use the system afterwards." },
+  { "prompt": "Staff make bookings in the new system instead of emailing the admin team.",
+    "options": ["Output", "Outcome"], "answer": 1,
+    "feedback": "This is the change the training was meant to cause. It could fail even if every session ran perfectly." },
+  { "prompt": "Migrate the website to the new content management system.",
+    "options": ["Output", "Outcome"], "answer": 0,
+    "feedback": "Run the test: you could migrate flawlessly and nothing changes for any reader. Ask what the migration is supposed to let people do." },
+  { "prompt": "Fewer citizens re-enter the same details across different government services.",
+    "options": ["Output", "Outcome"], "answer": 1,
+    "feedback": "This is the IDG course's own worked example (Module 3). The change is in what citizens have to do." },
+  { "prompt": "Increase the number of active users of the dashboard.",
+    "options": ["Output", "Outcome"], "answer": 1,
+    "feedback": "A trap in the other direction. Using the dashboard is a behaviour change, so it is an outcome. Whether it is the right outcome is a separate question." },
+  { "prompt": "Deliver the project on time and within budget.",
+    "options": ["Output", "Outcome"], "answer": 0,
+    "feedback": "Describes the quality of the delivery, not any change for the people it serves. A project can hit both and change nothing." }
+] }
+</script>
+</div>
+
+<h2>Skill: rewrite an output as an outcome</h2>
+<p>Use the shape <em>[Who] [does / no longer has to do what], [observable how]</em>. Write your version first, then reveal a model answer and score yourself against the checklist.</p>
+
+<label for="rw1">1. "Build a WhatsApp chatbot for parent enquiries."</label>
+<textarea id="rw1" placeholder="Parents ..."></textarea>
+<div class="reveal">
+  <button type="button" data-label="Reveal model answer"></button>
+  <div class="reveal-body">
+    <p><strong>Model:</strong> Parents get an accurate answer to routine questions within an hour, at any time of day, without a staff member typing it.</p>
+    <p>Note the outcome does not mention WhatsApp or a chatbot. Several different outputs could produce it, which is exactly why it is worth writing down first.</p>
+  </div>
+</div>
+
+<label for="rw2">2. "Add a dark mode to the learning app."</label>
+<textarea id="rw2" placeholder="Students ..."></textarea>
+<div class="reveal">
+  <button type="button" data-label="Reveal model answer"></button>
+  <div class="reveal-body">
+    <p><strong>Model:</strong> Students studying in the evening keep working in the app instead of stopping or switching to another device.</p>
+    <p>This one is hard, and that is the point. If you struggled to find a credible outcome, the request may be a solution in search of a problem. That is the signal to ask what prompted it.</p>
+  </div>
+</div>
+
+<label for="rw3">3. "Produce a weekly attendance report for centre managers."</label>
+<textarea id="rw3" placeholder="Centre managers ..."></textarea>
+<div class="reveal">
+  <button type="button" data-label="Reveal model answer"></button>
+  <div class="reveal-body">
+    <p><strong>Model:</strong> Centre managers contact at-risk students within a week of a second missed session.</p>
+    <p>The report is an output. The contact is the outcome. A report nobody acts on hits the first and misses the second.</p>
+  </div>
+</div>
+
+<div class="note">
+  <p><strong>Checklist.</strong> Score each of your rewrites out of four.</p>
+  <ol>
+    <li>Names who changes.</li>
+    <li>Says what they do differently, or no longer have to do.</li>
+    <li>Could be observed without asking the team what it shipped.</li>
+    <li>Could fail even if the output ships perfectly.</li>
+  </ol>
+</div>
+
+<h2>Carry it out of the room</h2>
+<p>Next time a request lands in your team's backlog, run the test on it silently. If it is an output, try the rewrite in your head before anyone discusses how to build it. Bring one real example to the next session and we will use it instead of a case study.</p>
+
+<h2>Read one thing</h2>
+<p>Primary source for this lesson: <a href="https://www.goodreads.com/book/show/45186993-outcomes-over-output"><em>Outcomes Over Output</em> by Josh Seiden</a>. It is under a hundred pages and the first chapter alone covers today's distinction in more depth. If you only have five minutes, read <a href="https://www.idg.gov.sg/guides-and-resources/productthinking1/">IDG Module 1: Understanding the Problem</a>.</p>
+
+<p class="aside">Anything unclear? Ask your teacher in the terminal. Paste a statement from your own work and ask whether it is an output or an outcome, or ask for more practice items.</p>
+
+<div class="lesson-nav">
+  <a href="../reference/outputs-vs-outcomes.html">Reference: Outputs vs Outcomes</a>
+  <a href="../index.html">Course home</a>
+</div>
+
+</main>
+<footer>
+  <p>Part of the Product Thinking course built from <a href="https://www.idg.gov.sg/product-thinking/">idg.gov.sg/product-thinking</a>. See <a href="../MISSION.md">MISSION.md</a>.</p>
+</footer>
+<script src="../assets/progress.js"></script>
+<script src="../assets/quiz.js"></script>
+</body>
+</html>
